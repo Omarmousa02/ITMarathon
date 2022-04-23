@@ -1,0 +1,132 @@
+/*     CSS      */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to right, #4d8e9c, rgb(0, 0, 0));
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+nav {
+  flex: 1;
+  text-align: center;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.logo {
+  padding-left: 40px;
+  color: white;
+  font-weight: bolder;
+}
+h5 {
+  color: white;
+  font-weight: bolder;
+  position: relative;
+  right: -180px;
+}
+h4 {
+  color: white;
+  font-weight: bolder;
+}
+.header {
+  background-image: linear-gradient(to right, #4d8e9c, rgb(0, 0, 0));
+  border-bottom: 10px black;
+}
+.container1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 450px;
+  background-image: url("alegere.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.btn1 {
+  position: relative;
+  left: -15%;
+  bottom: -350px;
+  background-image: linear-gradient(to right, #4d8e9c 20%, rgb(0, 0, 0) 70%);
+  padding: 30px 50px 30px 50px;
+  border-radius: 100px;
+  text-decoration: none;
+  color: rgb(244, 242, 242);
+  font-weight: bolder;
+}
+.btn2 {
+  position: relative;
+  left: 15%;
+  bottom: -350px;
+  background-image: linear-gradient(to right, rgb(0, 0, 0) 20%, #4d8e9c 70%);
+  padding: 30px 50px 30px 50px;
+  border-radius: 100px;
+  text-decoration: none;
+  color: rgb(244, 242, 242);
+  font-weight: bolder;
+}
+.text-reclama {
+  color: #000;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.linie {
+  color: blue;
+  background-color: black;
+  padding: 0.5px;
+}
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.brands {
+  padding: 0;
+  background-image: linear-gradient(to right, #4d8e9c, rgb(0, 0, 0));
+}
+.col-5 {
+  width: 160px;
+  display: inline-block;
+  padding-top: 20px;
+}
+.col-5 img {
+  width: 100%;
+  cursor: pointer;
+
+  padding-top: 40px;
+}
+.col-5 img:hover {
+  opacity: 0.7;
+}
+
+.col-5 {
+  float: left;
+  width: 18%;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer-text {
+  padding-bottom: 50px;
+  text-align: center;
+  color: white;
+  font-family: Lucida;
+  font-size: 20px;
+  
+
+}
